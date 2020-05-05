@@ -1,0 +1,16 @@
+/* =============
+    Footer
+============= */
+footer{
+    display: grid;
+    grid-template-columns: 4% auto 4%;
+    grid-template-areas: ". footer .";
+
+    @include md{
+        grid-template-columns: 20% auto 20%;
+    }
+
+    #footer-content{
+        grid-area: footer;
+    }
+}
