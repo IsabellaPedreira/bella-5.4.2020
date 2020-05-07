@@ -18,6 +18,18 @@
         }
     }
 
+    #section-5-text{
+
+        display: grid;
+        grid-template-columns: 10px auto 10px;
+        grid-template-areas: ".section-5-text .";
+
+        @include md{
+            grid-area: section-5-text;
+        }
+
+    }
+
     #section-5-content{
         grid-area: section-5;
         display: grid;
