@@ -1,15 +1,46 @@
 /* =============
     Section 1
 ============= */
+
 #section-1{
-    display: grid;
-    grid-template-columns: 15px auto 15px;
-    grid-template-areas: ". section-1 .";
-    #section-1-content{
-        grid-area: section-1;
-        img{
-            width: 100%;
-        }
+    background-image: url(../'img/section-1/cartera-pp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+
+    @include md{
+        height: 60vh;
     }
-    
+
+    @include lg{
+        height: 70vh;
+    }
+
+    @include xl{
+        height: 50vh;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+// #section-1{
+//     display: grid;
+//     grid-template-columns: 15px auto 15px;
+//     grid-template-areas: ". section-1 .";
+//     #section-1-content{
+//         grid-area: section-1;
+//         img{
+//             width: 100%;
+//         }
+//     }
+    
+// }
