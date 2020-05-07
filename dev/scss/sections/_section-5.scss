@@ -9,7 +9,13 @@
     @include xl{
         display: grid;
         grid-template-columns: auto 800px;
-        grid-template-areas: ". section-5-content .";
+        grid-template-areas: ". section-5 .";
+    }
+
+    #section-5-content{
+        @include xl{
+            grid-area: section-5;
+        }
     }
 
     #section-5-content{
