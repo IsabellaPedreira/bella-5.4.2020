@@ -15,8 +15,8 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/deploy/css/styles-min.css",
-		"oF": 0,
+		"oAP": "/deploy/styles-min.css",
+		"oF": 3,
 		"oS": 3
 		},
 	"/deploy/index.html": {
@@ -25,7 +25,7 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/index.html",
-		"oF": 0
+		"oF": 3
 		},
 	"/deploy/styles.css": {
 		"aP": 1,
