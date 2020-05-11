@@ -38,6 +38,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/Pictures-2500 width/camisa-y-pant.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/Pictures-2500 width/camisa-y-pant.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/Pictures-2500 width/camisa.jpg": {
 		"ft": 16384,
 		"iS": 2649320,
@@ -70,14 +81,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"/deploy/Pictures-2500 width/hero": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/Pictures-2500 width/hero",
-		"oF": 0
 		},
 	"/deploy/Pictures-2500 width/pant.jpg": {
 		"ft": 16384,
