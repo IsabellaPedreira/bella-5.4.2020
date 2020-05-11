@@ -27,6 +27,90 @@
 		"oAP": "/deploy/index.html",
 		"oF": 3
 		},
+	"/deploy/Pictures-2500 width/Bella.jpg": {
+		"ft": 16384,
+		"iS": 4450703,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/Pictures-2500 width/Bella.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/Pictures-2500 width/camisa.jpg": {
+		"ft": 16384,
+		"iS": 2649320,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/Pictures-2500 width/camisa.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/Pictures-2500 width/cartera.jpg": {
+		"ft": 16384,
+		"iS": 2317517,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/Pictures-2500 width/cartera.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/Pictures-2500 width/Crty.jpg": {
+		"ft": 16384,
+		"iS": 4669530,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/Pictures-2500 width/Crty.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/Pictures-2500 width/hero": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/Pictures-2500 width/hero",
+		"oF": 0
+		},
+	"/deploy/Pictures-2500 width/pant.jpg": {
+		"ft": 16384,
+		"iS": 2531666,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/Pictures-2500 width/pant.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/Pictures-2500 width/Recreo.png": {
+		"ft": 32768,
+		"iS": 9740915,
+		"oA": 0,
+		"oAP": "/deploy/Pictures-2500 width/Recreo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/styles-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/deploy/styles-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/deploy/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -43,6 +127,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/footer.html",
+		"oF": 0
+		},
+	"/dev/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/index.html",
 		"oF": 0
 		},
 	"/dev/index.kit": {

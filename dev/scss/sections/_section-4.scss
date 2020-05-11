@@ -11,6 +11,16 @@
         grid-template-columns: auto 800px auto;
     }
 
+  ul{
+      display: grid;
+      gap: 20px;
+      grid-area: section-4;
+      grid-template-areas: g2;
+      
+ }
+
+
+
     #section-4-content{
         grid-area: section-4;
         display: grid;
