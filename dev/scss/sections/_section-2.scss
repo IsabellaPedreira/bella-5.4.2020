@@ -50,7 +50,15 @@
             }
 
             h2{
-                margin: 50px 0 30px
+                margin: 50px 0 30px;
+                
+                @include md{
+                    margin: 34px 0 30px 
+                }
+
+                @include lg{
+                    margin: 28px 0 30px 
+                }
             }
 
             h3{
