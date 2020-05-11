@@ -51,6 +51,7 @@
         }
 
         #g2{
+            background-image: url(.."img/section-4/Crty.jpg");
             @include md{
                 grid-area: g2;
             }
