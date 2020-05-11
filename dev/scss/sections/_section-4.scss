@@ -16,28 +16,26 @@
       gap: 20px;
       grid-area: section-4;
       grid-template-areas: g2;
-      
+      "g1"
+      "g1"
+      "g2"
+      "g3"
+      grid-template-rows: repeat(5, 324px);
+
+      @include md{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        "g1 g1"
+        "g2 g3"
+    }
+
+    @include lg{
+        grid-template-areas:
+        "g1 g2"
+        "g1 g3"
+    }
+
  }
-
-
-
-    #section-4-content{
-        grid-area: section-4;
-        display: grid;
-        gap: 20px;
-
-        @include md{
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-areas:
-            "g1 g1"
-            "g2 g3"
-        }
-
-        @include lg{
-            grid-template-areas:
-            "g1 g2"
-            "g1 g3"
-        }
 
         li{
             background-size: cover;
@@ -45,6 +43,7 @@
             
 
         #g1{
+            background-image: url(.."img/section-4/Bella.jpg");
             @include md{
                 grid-area: g1;
             }
