@@ -4,6 +4,19 @@
 
 #section-2{
 
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+
+    display: grid;
+    grid-template-areas: ". section-2 .";
+    grid-template-columns: 15px auto 15px;
+
+
+
+
+
     @include xl{
         display: grid;
         grid-template-columns: auto 1200px auto;
