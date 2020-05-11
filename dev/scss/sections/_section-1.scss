@@ -3,7 +3,7 @@
 ============= */
 
 #section-1{
-    background-image: url(../'img/section-1/cartera.jpg');
+    background-image: url('../img/section-1/cartera.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -24,6 +24,10 @@
     h1{
         font-size: rem-calc(40);
         color: $hot-pink; 
+
+        span{
+            color: yellow;
+        }
     }
 }
 

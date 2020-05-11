@@ -15,8 +15,8 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/deploy/styles-min.css",
-		"oF": 3,
+		"oAP": "/deploy/css/styles-min.css",
+		"oF": 0,
 		"oS": 3
 		},
 	"/deploy/img/Bella.jpg": {
@@ -32,7 +32,7 @@
 		},
 	"/deploy/img/camisa-y-pant.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 1652192,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/camisa-y-pant.jpg",
@@ -47,17 +47,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/camisa.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/cartera.jpg": {
-		"ft": 16384,
-		"iS": 2317517,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/cartera.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -96,33 +85,24 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/section-1/cartera.jpg": {
+		"ft": 16384,
+		"iS": 2317517,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-1/cartera.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/index.html",
-		"oF": 3
-		},
-	"/deploy/styles-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/styles-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/deploy/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/styles-min.css",
-		"oF": 1,
-		"oS": 3
+		"oF": 0
 		},
 	"/dev/footer.kit": {
 		"cB": 0,
@@ -130,14 +110,6 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/footer.html",
-		"oF": 0
-		},
-	"/dev/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/index.html",
 		"oF": 0
 		},
 	"/dev/index.kit": {
@@ -353,16 +325,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"/dev/scss/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/dev/scss/styles-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
