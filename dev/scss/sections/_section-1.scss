@@ -2,22 +2,12 @@
     Section 1
 ============= */
 
-// #section-1{
-//     background-image: url('../img/section-1/cartera.jpg');
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     background-position: center;
-//     height: 50vh;
-
 #section-1{
-    display: grid;
-    grid-template-columns: 15px auto 15px;
-    grid-template-areas: ". section-1 ." ;
-
-    @include md{
-        grid-template-columns: 10% auto 10%;
-        grid-template-areas: ". section-1 ." ;
-    }
+    background-image: url('../img/section-1/cartera.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
 
     @include md{
         height: 60vh;
@@ -40,25 +30,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-// #section-1{
-//     display: grid;
-//     grid-template-columns: 15px auto 15px;
-//     grid-template-areas: ". section-1 .";
-//     #section-1-content{
-//         grid-area: section-1;
-//         img{
-//             width: 100%;
-//         }
-//     }
-    
-// }
