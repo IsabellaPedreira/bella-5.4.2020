@@ -82,12 +82,12 @@
 
         aside{
 
+            background-image: url("../img/section-2/camisa-y-pant.jpg");
+            background-size: cover;
+            height: 40vh;
+
             @include md{
                 grid-area: section-2-img;
-            }
-
-            img{
-                width: 100%;
             }
         }
     }

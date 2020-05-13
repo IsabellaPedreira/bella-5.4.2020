@@ -1,39 +1,23 @@
 /* =============
     Section 5
 ============= */
+
 #section-5{
     display: grid;
     grid-template-columns: 15px auto 15px;
-    grid-template-areas: ". section-5 ." ;
+    grid-template-areas: ". section-5 .";
 
     @include xl{
-        display: grid;
-        grid-template-columns: auto 800px;
-        grid-template-areas: ". section-5 .";
+        grid-template-columns: auto 1200px auto;
     }
 
     #section-5-content{
-        @include xl{
-            grid-area: section-5;
-        }
-    }
-
-    #section-5-text{
-
-        display: grid;
-        grid-template-columns: 10px auto 10px;
-        grid-template-areas: ".section-5-text .";
+        grid-area: section-5;
 
         @include md{
-            grid-area: ". section-5-text .";
+            display: grid;
+            grid-template-columns: 40% auto;
         }
-
-    }
-
-    #section-5-content{
-        grid-area: ". section-5 .";
-        display: grid;
-        gap: 20px;
 
         aside{
             img{
@@ -42,3 +26,53 @@
         }
     }
 }
+
+
+
+
+
+// #section-5 {
+//     display: grid;
+//     grid-template-columns: 15px auto 15px;
+//     grid-template-areas: ". section-5 .";
+
+//     @include xl {
+//         grid-template-columns: auto 800px auto;
+//     }
+
+//     #section-5-content {
+//         grid-area: ". section-5 .";
+
+//         display: grid;
+//         gap: 20px;
+
+//         @include md{
+//             grid-template-columns: 50% auto;
+//             grid-template-areas: "section-5-img section-5-content";
+//         }
+
+
+//         #section-5-text {
+//             display: grid;
+//             grid-template-columns: 10px auto 10px;
+//             grid-template-areas: ". section-5-text .";
+
+//             @include md {
+//                 grid-area: section-5-content;
+//                 grid-area: ". section-5-text .";
+//             }
+
+//         }
+
+//         aside {
+//             @include md{
+//                 grid-area: section-5-img;
+//             }
+//             img {
+//                 width: 100%;
+//             }
+//         }
+
+//     }
+
+// }
