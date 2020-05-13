@@ -461,6 +461,7 @@ footer {
   #section-2 #section-2-content aside {
     background-image: url("../img/section-2/camisa-y-pant.jpg");
     background-size: cover;
+    background-position: center top;
     height: 40vh; }
     @media (min-width: 768px) {
       #section-2 #section-2-content aside {
